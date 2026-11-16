@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permiso obligatorio para realizar peticiones de red hacia el backend -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@android:drawable/sym_def_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PartidosPoliticos"
+        android:usesCleartextTraffic="true">
+
+        <!-- Pantalla inicial de autenticación (Login) -->
+        <activity
+            android:name=".ActividadLogin"
+            android:exported="true"
+            android:label="@string/titulo_login"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Pantalla para registro de nuevos usuarios -->
+        <activity
+            android:name=".ActividadRegistro"
+            android:exported="false"
+            android:label="@string/titulo_registro"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Pantalla para solicitar restablecimiento de contraseña -->
+        <activity
+            android:name=".ActividadRecuperarClave"
+            android:exported="false"
+            android:label="@string/titulo_recuperar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Menú principal con navegación y sensor de proximidad -->
+        <activity
+            android:name=".ActividadPrincipal"
+            android:exported="false"
+            android:label="@string/titulo_menu" />
+
+        <!-- Formulario CRUD para gestión de un partido político y acelerómetro -->
+        <activity
+            android:name=".ActividadCrudPartido"
+            android:exported="false"
+            android:label="@string/titulo_crud"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Listado interactivo de partidos registrados con ListView -->
+        <activity
+            android:name=".ActividadListaPartidos"
+            android:exported="false"
+            android:label="@string/titulo_lista_partidos" />
+
+        <!-- Consultas y reportes por país y mínimo de alcaldes -->
+        <activity
+            android:name=".ActividadReportes"
+            android:exported="false"
+            android:label="@string/titulo_reportes" />
+
+    </application>
+
+</manifest>

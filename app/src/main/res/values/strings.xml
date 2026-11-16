@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Partidos Políticos</string>
+
+    <!-- Actividad Login -->
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="subtitulo_login">Sistema de Gestión de Partidos Políticos</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="btn_iniciar_sesion">Ingresar</string>
+    <string name="btn_ir_registro">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="btn_olvide_clave">¿Olvidaste tu contraseña?</string>
+
+    <!-- Actividad Registro -->
+    <string name="titulo_registro">Registro de Usuario</string>
+    <string name="hint_nombre_usuario">Nombre completo</string>
+    <string name="btn_registrar_usuario">Crear Cuenta</string>
+    <string name="btn_volver_login">Volver al inicio de sesión</string>
+
+    <!-- Actividad Recuperar Clave -->
+    <string name="titulo_recuperar">Recuperar Contraseña</string>
+    <string name="desc_recuperar">Ingresa tu correo para recibir las instrucciones de recuperación.</string>
+    <string name="btn_enviar_recuperacion">Enviar Solicitud</string>
+
+    <!-- Actividad Principal (Menú) -->
+    <string name="titulo_menu">Menú Principal</string>
+    <string name="bienvenido">Bienvenido al Sistema</string>
+    <string name="btn_menu_guardar_partido">Administrar Partidos (CRUD)</string>
+    <string name="btn_menu_listar">Listar Partidos</string>
+    <string name="btn_menu_reportes">Reportes y Estadísticas</string>
+    <string name="btn_menu_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Actividad CRUD Partido -->
+    <string name="titulo_crud">Formulario de Partido</string>
+    <string name="hint_id_partido">ID del Partido (ej: PB100)</string>
+    <string name="hint_nombre_partido">Nombre del Partido</string>
+    <string name="hint_eslogan">Eslogan o Lema</string>
+    <string name="hint_presidente">Presidente</string>
+    <string name="hint_secretario">Secretario</string>
+    <string name="hint_tesorero">Tesorero</string>
+    <string name="hint_pais">País</string>
+    <string name="hint_num_presidentes">Número de Presidentes</string>
+    <string name="hint_num_gobernadores">Número de Gobernadores</string>
+    <string name="hint_num_alcaldes">Número de Alcaldes</string>
+    <string name="hint_num_consejales">Número de Consejales</string>
+    <string name="hint_num_congresistas">Número de Congresistas</string>
+
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <!-- Diálogo Buscar Partido -->
+    <string name="dialogo_buscar_titulo">Buscar Partido Político</string>
+    <string name="dialogo_buscar_mensaje">Digite el ID del partido:</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Actividad Lista Partidos -->
+    <string name="titulo_lista_partidos">Listado de Partidos Políticos</string>
+    <string name="subtitulo_lista">Toque un partido para editar o consultar detalles</string>
+    <string name="btn_recargar_lista">Recargar</string>
+    <string name="sin_partidos">No se encontraron partidos registrados.</string>
+
+    <!-- Actividad Reportes -->
+    <string name="titulo_reportes">Reportes de Partidos</string>
+    <string name="hint_reporte_pais">Nombre del país (ej: Colombia)</string>
+    <string name="btn_reporte_pais">Reporte por País</string>
+    <string name="hint_reporte_alcaldes">Mínimo de alcaldes (ej: 5)</string>
+    <string name="btn_reporte_alcaldes">Reporte por Alcaldes</string>
+    <string name="sin_resultados_reporte">No hay resultados para el filtro especificado.</string>
+
+    <!-- Mensajes generales y Sensores -->
+    <string name="cargando">Procesando solicitud...</string>
+    <string name="msg_formulario_limpiado">Formulario limpiado</string>
+    <string name="msg_sensor_proximidad">Sensor de proximidad detectado</string>
+    <string name="msg_no_sensor_acelerometro">Este dispositivo no cuenta con sensor de acelerómetro.</string>
+    <string name="msg_no_sensor_proximidad">Este dispositivo no cuenta con sensor de proximidad.</string>
+    <string name="error_campos_vacios">Por favor complete todos los campos obligatorios.</string>
+    <string name="error_numeros_invalidos">Los contadores deben ser números enteros válidos mayores o iguales a 0.</string>
+    <string name="sesion_cerrada">Sesión cerrada exitosamente.</string>
+</resources>

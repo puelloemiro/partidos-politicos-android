@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Texto indicado en las guías: "Digite el ID del partido:" -->
+    <TextView
+        android:id="@+id/tvMensajeBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_buscar_mensaje"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Campo de texto para ingresar el ID a buscar -->
+    <EditText
+        android:id="@+id/etIdBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/hint_id_partido"
+        android:inputType="textCapCharacters"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+
+</LinearLayout>
